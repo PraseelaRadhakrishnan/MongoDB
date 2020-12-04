@@ -12,6 +12,22 @@ public class Employee {
     private String email;
     private int salary;
 
+    public Employee() {
+    }
+
+    public Employee(int id, String name, String email, int salary) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.salary = salary;
+    }
+
+    public Employee(String name, String email, int salary) {
+        this.name = name;
+        this.email = email;
+        this.salary = salary;
+    }
+
     public int getId() {
         return id;
     }
